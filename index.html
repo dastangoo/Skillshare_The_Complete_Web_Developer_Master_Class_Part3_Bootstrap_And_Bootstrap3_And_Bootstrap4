@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Learn Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-4">
+        <button class="btn btn-warning" data-toggle="collapse" data-target="#col1">Collapse</button>
+        <div id="col1" class="collapse">
+          This is a Collapsible panel
+        </div>
+
+        <a href="#col2" class="btn btn-danger" data-toggle="collapse">Collapse 2</a>
+        <div class="collapse" id="col2">
+          This is the second collapsible Panel
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading"><a href="#col3" data-toggle="collapse">Click to open the Panel</a></div>
+          <div class="panel-collapse collapse" id="col3">
+            <div class="panel-body">
+              This is the Panel body
+            </div>
+            <div class="panel-footer">
+              This is the Panel footer
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="panel-group" id="paren_div">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a href="#a_coll1" data-toggle="collapse" data-parent="#parent_div">The First Panel</a>
+              </div>
+              <div class="panel-collapse collapse" id="a_coll1">
+                <div class="panel-body">This is the first panel Body</div>
+                <div class="panel-footer">This is the first panel Footer</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a href="#a_coll2" data-toggle="collapse" data-parent="#parent_div">The Second Panel</a>
+              </div>
+              <div class="panel-collapse collapse" id="a_coll2">
+                <div class="panel-body">This is the first panel Body</div>
+                <div class="panel-footer">This is the first panel Footer</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a href="#a_coll3" data-toggle="collapse" data-parent="#parent_div">The Third Panel</a>
+              </div>
+              <div class="panel-collapse collapse" id="a_coll3">
+                <div class="panel-body">This is the first panel Body</div>
+                <div class="panel-footer">This is the first panel Footer</div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a href="#a_coll4" data-toggle="collapse" data-parent="#parent_div">The Fourth Panel</a>
+              </div>
+              <div class="panel-collapse collapse" id="a_coll4">
+                <div class="panel-body">This is the first panel Body</div>
+                <div class="panel-footer">This is the first panel Footer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
