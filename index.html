@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Learn Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+  </head>
+  <body>
+      <div class="container">
+        <ul class="nav nav-tabs">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">Software</a></li>
+          <li><a href="#">Music</a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles
+          <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Science</a></li>
+              <li><a href="#">IT</a></li>
+              <li><a href="#">Health</a></li>
+            </ul>
+          </li>
+        </ul><br>
+        <!-- Pills -->
+        <ul class="nav nav-pills">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">Software</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Articles</a></li>
+        </ul><br>
+        <div class="col-md-4">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Software</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Articles</a></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div><br>
+        <ul class="nav nav-pills nav-justified">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">Software</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Articles</a></li>
+        </ul>
+        <!-- Dynamic Tabs and Pills -->
+        <br>
+        <ul class="nav nav-tabs">
+          <li><a href="#home" data-toggle="tab">Home</a></li>
+          <li class="active"><a href="#software" data-toggle="tab">Software</a></li>
+          <li><a href="#music" data-toggle="tab">Music</a></li>
+          <li><a href="#articles" data-toggle="tab">Articles</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade">
+            <h2>Home</h2>
+            <p>This is the Home Content</p>
+          </div>
+          <div id="software" class="tab-pane fade">
+            <h2>Software</h2>
+            <p>This is the Software Content</p>
+          </div>
+          <div id="music" class="tab-pane fade">
+            <h2>Music</h2>
+            <p>This is the Music Content</p>
+          </div>
+          <div id="articles" class="tab-pane fade">
+            <h2>Articles</h2>
+            <p>This is the Articles Content</p>
+          </div>
+        </div>
+        <br>
+        <ul class="nav nav-pills">
+          <li><a href="#home1" data-toggle="pill">Home</a></li>
+          <li><a href="#software1" data-toggle="pill">Software</a></li>
+          <li class="active"><a href="#music1" data-toggle="pill">Music</a></li>
+          <li><a href="#articles1" data-toggle="pill">Articles</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="home1" class="tab-pane fade">
+            <h2>Home</h2>
+            <p>This is the Home Content</p>
+          </div>
+          <div id="software1" class="tab-pane fade">
+            <h2>Software</h2>
+            <p>This is the Software Content</p>
+          </div>
+          <div id="music1" class="tab-pane fade in active">
+            <h2>Music</h2>
+            <p>This is the Music Content</p>
+          </div>
+          <div id="articles1" class="tab-pane fade">
+            <h2>Articles</h2>
+            <p>This is the Articles Content</p>
+          </div>
+        </div>
+
+      </div>
+  </body>
+</html>

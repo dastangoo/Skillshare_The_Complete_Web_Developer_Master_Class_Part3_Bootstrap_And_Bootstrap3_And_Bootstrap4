@@ -1,0 +1,29 @@
+{
+  "name": "Skillshare_The_Complete_Web_Developer_Master_Class_Part3_Bootstrap_And_Bootstrap3_And_Bootstrap4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dastangoo/Skillshare_The_Complete_Web_Developer_Master_Class_Part3_Bootstrap_And_Bootstrap3_And_Bootstrap4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dastangoo/Skillshare_The_Complete_Web_Developer_Master_Class_Part3_Bootstrap_And_Bootstrap3_And_Bootstrap4/issues"
+  },
+  "homepage": "https://github.com/dastangoo/Skillshare_The_Complete_Web_Developer_Master_Class_Part3_Bootstrap_And_Bootstrap3_And_Bootstrap4#readme"
+}
