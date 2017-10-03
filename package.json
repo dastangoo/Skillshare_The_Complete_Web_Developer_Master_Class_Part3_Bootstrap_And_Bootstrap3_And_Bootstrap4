@@ -1,7 +1,6 @@
 {
   "name": "Skillshare_The_Complete_Web_Developer_Master_Class_Part3_Bootstrap_And_Bootstrap3_And_Bootstrap4",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "font-awesome": "^4.7.0",
@@ -26,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/dastangoo/Skillshare_The_Complete_Web_Developer_Master_Class_Part3_Bootstrap_And_Bootstrap3_And_Bootstrap4/issues"
   },
-  "homepage": "https://github.com/dastangoo/Skillshare_The_Complete_Web_Developer_Master_Class_Part3_Bootstrap_And_Bootstrap3_And_Bootstrap4#readme"
+  "homepage": "https://github.com/dastangoo/Skillshare_The_Complete_Web_Developer_Master_Class_Part3_Bootstrap_And_Bootstrap3_And_Bootstrap4#readme",
+  "description": ""
 }
